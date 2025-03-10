@@ -169,6 +169,12 @@ def run_backtest():
 
     print("📈 Full report saved as MLTrader_Report.html")
 
+# Uncomment these lines in `tradingbot.py` to enable live trading (USE AT YOUR OWN RISK)
+# trader = Trader()
+# trader.add_strategy(strategy)
+# trader.run_all()
+
+
 if __name__ == "__main__":
     #print("starting MLTrader backtest")
     run_backtest()
