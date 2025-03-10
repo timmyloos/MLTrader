@@ -80,7 +80,7 @@ python tradingbot.py
 * Select Option 2 to enter custom start and end dates.
 
 ### **5. View the Performance Report**
-After the backtest completes, 2 reports will be generated.
+After the backtest completes, 2 reports will be generated into a logs folder.
 >
 - Open it in a browser to analyze returns, drawdowns, Sharpe ratio, and more.
 ### **6. Live Trading (Optional)**
