@@ -1,12 +1,11 @@
 # MLTrader
 
 ## About  
-The **ML Trading Bot** is a machine learning-driven algorithmic trading system built with **Lumibot** and **Alpaca's API**.  
-It leverages **sentiment analysis using FinBERT** to make data-driven trading decisions based on financial news sentiment.  
-The bot is designed to **backtest trading strategies** on historical SPY (**S&P 500 ETF**) data and can be extended to **real-time trading**.  
-
-This project provides **flexible backtesting**, allowing users to define **their own time range** instead of being limited to a fixed period.  
-It also **optimizes memory management and execution speed**, ensuring smooth performance even on resource-limited systems.
+The ML Trading Bot is a machine learning-driven algorithmic trading system built with Lumibot and Alpaca's API.
+It leverages FinBERT sentiment analysis to make data-driven trading decisions based on financial news sentiment.
+The bot is designed to backtest trading strategies on historical SPY (S&P 500 ETF) data and can be extended to real-time trading.
+This project enables flexible backtesting, allowing users to define custom time ranges instead of being restricted to a fixed period.
+Additionally, it optimizes memory management and execution speed, ensuring smooth performance even on resource-limited systems.
 
 ---
 
@@ -37,12 +36,6 @@ This optimized version implements **key improvements** to enhance **performance 
 ### ✅ **Customizable Backtesting**
 - Users can now **select a specific start and end date**, instead of being locked into a default period.
 - Allows for **shorter backtests**, making **faster strategy testing possible**.
-
----
-
-## **Final Outcome**
-With these optimizations, the **ML Trading Bot** now runs **faster**, **uses less memory**, and allows **full backtest customization**,  
-making it a **scalable solution for AI-driven trading strategies**.   
 
 ---
 ## How to Use  
@@ -83,6 +76,9 @@ python tradingbot.py
 After the backtest completes, 2 reports will be generated into a logs folder.
 >
 - Open it in a browser to analyze returns, drawdowns, Sharpe ratio, and more.
+>
+![Report1](https://cdn.discordapp.com/attachments/1348406686469062686/1348462618364346479/image.png?ex=67cf8d2d&is=67ce3bad&hm=c5ad7abd3c4e9ffb0b5bfc4335077140cc26d9e59679592114f58c0035748448&)
+![Report2](https://cdn.discordapp.com/attachments/1348406686469062686/1348462749893660742/image.png?ex=67cf8d4c&is=67ce3bcc&hm=5d2e7d21d18d97973f247caa452f5545f5da2f8051bd386af425cc6ac838bb68&)
 ### **6. Live Trading (Optional)**
 To enable live trading, modify the script:
 ```
@@ -91,8 +87,10 @@ To enable live trading, modify the script:
 # trader.add_strategy(strategy)
 # trader.run_all()
 ```
+
 **This project is for educational purposes only and does not constitute financial advice. Trading involves risk, and you should not trade with real money unless you fully understand the risks.**
 
+---
 ## Technologies Used
 
 This project utilizes several key technologies to facilitate **machine learning-driven algorithmic trading**, **backtesting**, and **real-time execution**.
@@ -114,7 +112,9 @@ This project utilizes several key technologies to facilitate **machine learning-
 ### Development & Deployment Tools
 - **Git & GitHub** → Version control and open-source collaboration  
 - **VS Code** → Python development environment  
-- **Jupyter Notebook** → Used for testing sentiment analysis & strategy visualization (optional)  
+- **Jupyter Notebook** → Used for testing sentiment analysis & strategy visualization (optional)
+
+---
 
 ## Acknowledgments
 This project was inspired by and built upon the work of [Nick Nochnack's MLTradingBot](https://github.com/nicknochnack/MLTradingBot/tree/main).
