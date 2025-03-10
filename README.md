@@ -12,13 +12,13 @@ Additionally, it optimizes memory management and execution speed, ensuring smoot
 ## Problem  
 The original **ML Trading Bot** faced **critical performance issues** when running large backtests:
 
-### ❌ **Memory Overload**
+### **Memory Overload**
 - The bot attempted to **process an entire multi-year dataset at once**, resulting in an **out-of-memory crash** at **82.35% progress**.
 
-### ❌ **Inefficient API Usage**
+###  **Inefficient API Usage**
 - Excessive API calls **overloaded Alpaca**, increasing **latency** and **API request limits**.
 
-### ❌ **Lack of User Control Over Time Span**
+###  **Lack of User Control Over Time Span**
 - The original version **only ran a fixed 4-year backtest (2020-2023)**, preventing users from **customizing** backtests.
 
 ---
@@ -26,14 +26,14 @@ The original **ML Trading Bot** faced **critical performance issues** when runni
 ## Solution  
 This optimized version implements **key improvements** to enhance **performance and usability**:
 
-### ✅ **Efficient Memory Management**
+### **Efficient Memory Management**
 - Processes data in **user-defined time chunks**, reducing **RAM usage**.
 - **Clears unnecessary trades and orders** to free up memory.
 
-### ✅ **Smarter API Handling**
+### **Smarter API Handling**
 - **Caches financial news data**, significantly **reducing redundant API calls**.
 
-### ✅ **Customizable Backtesting**
+### **Customizable Backtesting**
 - Users can now **select a specific start and end date**, instead of being locked into a default period.
 - Allows for **shorter backtests**, making **faster strategy testing possible**.
 
