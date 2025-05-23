@@ -77,8 +77,8 @@ After the backtest completes, 2 reports will be generated into a logs folder.
 >
 - Open it in a browser to analyze returns, drawdowns, Sharpe ratio, and more.
 >
-![Report1](https://cdn.discordapp.com/attachments/1348406686469062686/1348462618364346479/image.png?ex=67cf8d2d&is=67ce3bad&hm=c5ad7abd3c4e9ffb0b5bfc4335077140cc26d9e59679592114f58c0035748448&)
-![Report2](https://cdn.discordapp.com/attachments/1348406686469062686/1348462749893660742/image.png?ex=67cf8d4c&is=67ce3bcc&hm=5d2e7d21d18d97973f247caa452f5545f5da2f8051bd386af425cc6ac838bb68&)
+![Report1](https://i.imghippo.com/files/fNf3213LLg.png)
+![Report2](https://i.imghippo.com/files/igra7786p.png)
 ### **6. Live Trading (Optional)**
 To enable live trading, modify the script:
 ```
